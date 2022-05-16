@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const { Client, MessageEmbed, MessageAttachment } = require('discord.js');
 const QRCode = require('qrcode');
 
